@@ -1,0 +1,42 @@
+DataStore Version 3.3 / SQL Server Version 16.0.1115 / Wednesday, May 15, 2024 @ 4:36:22 PM
+===========================================================================================
+
+PERFORMANCE FOR 2,000 OBJECTS
+
+Serialize Baseline      : 00:00:00.004
+Deserialize Baseline    : 00:00:00.040
+
+=> SAVES
+
+   Total SQL Time       : 00:00:04.211  /  Read: 00:00:01.193  /  Write: 00:00:03.018
+   Total CPU Time       : 00:00:00.073
+   Total Time           : 00:00:04.284
+   Efficiency           : 98.3%
+   Effective Rate       : 467/sec
+
+=> READS
+
+   Total SQL Time       : 00:00:00.055
+   Total CPU Time       : 00:00:00.003
+   Total Time           : 00:00:00.058
+   Efficiency           : 94.8%
+   Effective Rate       : 34,483/sec
+
+=> SAVES (lineages)
+
+   Total SQL Time       : 00:00:10.800  /  Read: 00:00:03.102  /  Write: 00:00:07.698
+   Total CPU Time       : 00:00:00.038
+   Total Time           : 00:00:10.838
+   Efficiency           : 99.6%
+   Effective Rate       : 185/sec
+
+=> READS (lineages)
+
+   Total SQL Time       : 00:00:00.068
+   Total CPU Time       : 00:00:00.002
+   Total Time           : 00:00:00.070
+   Efficiency           : 97.1%
+   Effective Rate       : 28,571/sec
+
+=> TOTAL TEST TIME: 00:00:16.036
+
